@@ -1,0 +1,11 @@
+20:20:36 **** Incremental Build of configuration Debug for project ComUsarFunciones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ComUsarFunciones.o" "..\\src\\ComUsarFunciones.c" 
+..\src\ComUsarFunciones.c: In function 'dividirDosEnteros':
+..\src\ComUsarFunciones.c:54:6: warning: variable 'division' set but not used [-Wunused-but-set-variable]
+   54 |  int division;
+      |      ^~~~~~~~
+gcc -o ComUsarFunciones.exe "src\\ComUsarFunciones.o" 
+
+20:20:36 Build Finished. 0 errors, 1 warnings. (took 514ms)
+

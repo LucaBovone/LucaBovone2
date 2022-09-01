@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : Ejercicio.c
+ Author      : Luca Bovone
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+	int i;
+	int numero;
+	int cantidadPares=0;
+	int cantidadImpares=0;
+
+	for(i=0;i<10;i++){
+		do{
+		printf("Ingrese numero %d \n",i+1);
+		scanf("%d",&numero);
+		}
+		while(!(numero>0));
+
+		if(numero%2==0){
+			cantidadPares++;
+		}else{
+			cantidadImpares++;
+		}
+
+
+
+
+	}
+
+	printf("La cantidad de Pares es: %d \n",cantidadPares);
+	printf("La cantidad de Impares es: %d \n",cantidadImpares);
+
+
+
+	return EXIT_SUCCESS;
+}

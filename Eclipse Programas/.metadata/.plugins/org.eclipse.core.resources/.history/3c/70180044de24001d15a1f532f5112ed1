@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Ejercicio.c
+ Author      : Luca Bovone
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char caracter;
+	int i;
+	int cantidadP=0;
+
+	setbuf(stdout,NULL);
+
+	for(i=0;i<5;i++){
+		printf("ingrese un caracter\n ");
+		scanf("%c",&caracter);
+		if(caracter=="p"){
+			cantidadP++;
+		}
+	}
+	printf("La cantidad de letras p fueron: %d",cantidadP);
+
+
+
+	return EXIT_SUCCESS;
+}

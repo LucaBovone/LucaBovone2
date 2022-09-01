@@ -1,0 +1,7 @@
+18:45:49 **** Incremental Build of configuration Debug for project ExplicacionFunciones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ExplicacionFunciones.o" "..\\src\\ExplicacionFunciones.c" 
+gcc -o ExplicacionFunciones.exe "src\\ExplicacionFunciones.o" 
+
+18:45:50 Build Finished. 0 errors, 0 warnings. (took 521ms)
+
